@@ -2,7 +2,7 @@ const stars = document.querySelectorAll(".star")
 
 const leoneed = () => {
     const img = document.querySelector("#img")
-    img.src = "Leoneed.png"
+    img.src = "image.png"
 }
 
 const random = (min,max) => {
