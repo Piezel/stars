@@ -6,6 +6,7 @@ const leoneed = () => {
     img.src = "image.png"
     const audio = new Audio("yes im bored.ogg")
     audio.volume = 0.5
+    audio.loop = true
     audio.play()
 }
 
