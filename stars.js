@@ -54,4 +54,14 @@ window.addEventListener("resize",e=>{
     createStars()
 })
 
+let counter = 0 
+
+document.body.addEventListener("click",e=>{
+    console.log(counter)
+    counter++
+    if(counter==41) {
+        leoneed()
+    }
+})
+
 createStars()
