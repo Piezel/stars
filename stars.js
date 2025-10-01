@@ -56,7 +56,7 @@ window.addEventListener("resize",e=>{
 
 let counter = 0 
 
-document.body.addEventListener("click",e=>{
+document.addEventListener("click",e=>{
     console.log(counter)
     counter++
     if(counter==41) {
